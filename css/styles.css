@@ -1,0 +1,94 @@
+:root {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(0, 11%, 12%);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.main {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 25vh auto;
+}
+
+.card {
+    background-color: whitesmoke;
+    border-radius: 5%;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-container {
+    background-image: url("../images/bg-pattern-card.svg");
+    margin: 0 auto;
+    height: 140px;
+    width: 350px;
+}
+
+.profile-pic {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -48px;
+}
+
+.name-age, .num {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.age, .label, .place {
+    color: hsl(0, 0%, 59%);
+    margin-left: 7px;
+}
+
+.place {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.bottom-container {
+    border-top: 3px solid hsl(0, 4%, 91%);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.followers,
+.likes,
+.photos {
+    margin: auto 15px auto 15px;
+}
+
+.label {
+    font-size: 0.7rem;
+}
+
+.background-image-top, .background-image-bottom {
+    position: fixed;
+    z-index: 0;
+    width: 700px;
+}
+
+.background-image-top {
+    left: -50px;
+    top: -451px;
+}
+
+.background-image-bottom {
+    right: 300px;
+    bottom: -508px;
+}
